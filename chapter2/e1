@@ -1,0 +1,3 @@
+#!/usr/bin/perl
+use Math::Trig ':pi';
+print pi2 * 12.5 . "\n";

@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+chomp(@lines = <STDIN>);
+foreach (sort(@lines)) {
+	print $_ . " ";
+}
+print "\n";

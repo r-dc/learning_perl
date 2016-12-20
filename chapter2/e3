@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+use Math::Trig ':pi';
+
+chomp($radius = <STDIN>);
+if ($radius < 0) {
+	print 0 . "\n";
+} else {
+	print pi2 * $radius . "\n";
+}

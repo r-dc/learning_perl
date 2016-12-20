@@ -1,0 +1,5 @@
+#!/usr/bin/perl
+use Math::Trig ':pi';
+
+chomp($radius = <STDIN>);
+print pi2 * $radius . "\n";

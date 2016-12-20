@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+
+chomp(@lines = <STDIN>);
+foreach (@lines) {
+	print $_ . " ";
+}
+print "\n";
