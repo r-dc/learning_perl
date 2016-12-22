@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+sub total {
+	my $total;
+	foreach (@_) {
+		$total += $_;
+	}
+	return $total
+}
+
+print total 1..1000;
+print "\n";
