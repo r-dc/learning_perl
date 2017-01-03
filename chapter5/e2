@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+chomp(@input = <STDIN>);
+print "1234567890"x5, "\n";
+foreach(@input) {
+	printf "%20s\n", $_;
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+chomp($offset = <STDIN>);
+chomp(@input = <STDIN>);
+print "1234567890"x5, "\n";
+foreach(@input) {
+	$format = "%$offset" . "s\n";
+	printf $format, $_;
+}
