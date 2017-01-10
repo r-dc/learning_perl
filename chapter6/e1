@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+%names = (
+  "fred"   => "flinstone",
+  "barney" => "rubble",
+  "wilma"  => "flinstone",
+);
+
+$name = <STDIN>;
+print $name;
