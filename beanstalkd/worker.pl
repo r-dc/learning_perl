@@ -2,7 +2,7 @@
 use Beanstalk::Client;
 
 my $client = Beanstalk::Client->new(
-  { server	 => "localhost",
+  { server	 => "localhost:11301",
     default_tube => 'testTube',
   }
 );
