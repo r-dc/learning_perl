@@ -1,0 +1,11 @@
+# To start the service:
+service beanstalkd start
+
+# To stop the service:
+service beanstalkd stop
+
+# To restart the service:
+service beanstalkd restart
+
+# To check the status:
+service beanstalkd status
